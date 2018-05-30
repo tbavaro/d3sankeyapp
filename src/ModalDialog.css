@@ -1,0 +1,42 @@
+.ModalDialog-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.ModalDialog {
+  cursor: auto;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalDialog-title {
+  flex: none;
+  font-size: larger;
+  white-space: pre;
+}
+
+.ModalDialog-contentContainer {
+  flex: auto;
+  font-family: monospace;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  overflow-y: scroll;
+}
+
+.ModalDialog-contentContainer-content {
+  white-space: pre;
+}
