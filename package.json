@@ -8,7 +8,8 @@
     "d3-sankey": "^0.7.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts-ts": "2.16.0"
+    "react-scripts-ts": "2.16.0",
+    "typescript": "^2.8.3"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -18,11 +19,12 @@
   },
   "devDependencies": {
     "@types/d3": "^5.0.0",
-    "@types/d3-dsv": "^1.0.31",
+    "@types/d3-dsv": "^1.0.33",
     "@types/d3-sankey": "^0.7.3",
     "@types/jest": "^22.2.3",
-    "@types/node": "^10.1.2",
+    "@types/node": "^10.1.4",
     "@types/react": "^16.3.14",
-    "@types/react-dom": "^16.0.5"
+    "@types/react-dom": "^16.0.5",
+    "tsdevtools": "github:tbavaro/tsdevtools#dist"
   }
 }
